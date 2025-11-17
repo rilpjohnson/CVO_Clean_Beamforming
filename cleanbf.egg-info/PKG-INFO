@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: cleanbf
+Version: 0.2
+Summary: A set of functions for running CLEAN beamforming.
+Home-page: https://github.com/ajakef/clean
+Author: Jake Anderson
+Maintainer-email: ajakef@gmail.com
+License: GPL-3.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+License-File: LICENSE
+Requires-Dist: obspy>=1.2.2
+Requires-Dist: numpy>=1.22
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: scipy>=1.3.0
+Requires-Dist: matplotlib>=3.2.0
+Provides-Extra: doc
+Requires-Dist: sphinx==3.2.1; extra == "doc"
+Requires-Dist: sphinx-rtd-theme==0.5.0; extra == "doc"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Provides-Extra: all
+Requires-Dist: pytest; extra == "all"
+Requires-Dist: sphinx-rtd-theme==0.5.0; extra == "all"
+Requires-Dist: sphinx==3.2.1; extra == "all"
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: maintainer-email
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
+
+
